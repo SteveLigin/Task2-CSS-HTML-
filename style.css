@@ -1,0 +1,123 @@
+header{
+    width:100%;
+    height:100vh;
+    background-color:rgba(209, 12, 12, 0.05)
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:70px;
+
+
+}
+.logo{
+    font-size:40px;
+}
+.logo span{
+    color:#f14a60;
+}
+.menu a{
+    text-decoration:none;
+    color:black;
+    font-size:20px;
+    padding:10px 20px;
+
+}
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.left{
+    flex-basis:50%;
+    max-width:400px;
+    padding-left:40px;
+
+
+
+}
+.right{
+    flex-basis:50%;
+    
+}
+.right img{
+width:120%;
+margin: bottom 30px;
+    
+    
+}
+label{
+    position:relative;
+    background:white;
+}
+label img{
+    
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:5px;
+    width:18px;
+
+}
+label input{
+    border:none;
+    outline:none;
+    border-radius:5px;
+    padding:10px;
+    padding-left:35px;
+
+}
+.line{
+    line-height:25px;
+    margin:20px 0px;
+
+}
+.box1{
+    width:15px;
+    height: 15px;
+    background: #f14a60;
+}
+.box2{
+    width:50px;
+    height:2px;
+    background: #f14a60;
+}
+.box3{
+    width:80px;
+    height:2px;
+    background: #f14a60;
+}
+.left h1{
+    font-size:80px;
+    margin-bottom:10px;
+
+}
+.left h2{
+    color:grey;
+}
+.left button{
+    background:white;
+    outline:none;
+    border:2px black solids;
+    border-radius:10px;
+    margin:30px 0px;
+
+
+}
+.icon{
+    display:flex;
+
+
+    
+
+    
+                   
+    
+    
+    
+
+}
+.uu{
+    font-size:20px;
+}
